@@ -1,0 +1,1 @@
+Built a React-based Quiz App with a timer. Users enter their name, answer dynamically fetched questions from our backend API, and submit their score. After finishing, they can view a leaderboard showing top scores. I used Axios for API calls and styled it with CSS for a clean interface.
