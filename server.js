@@ -8,7 +8,7 @@ app.use(cors());
 app.use(express.json());
 
 // Connect to MongoDB
-mongoose.connect("mongodb://127.0.0.1:27017/quiz");
+mongoose.connect("connect");
 
 // ✅ Sample questions
 const questions = [
@@ -38,3 +38,4 @@ app.get("/leaderboard", async (req, res) => {
 
 // Only **one listen** at the end
 app.listen(5000, () => console.log("Server running on port 5000"));
+
